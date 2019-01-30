@@ -1,0 +1,2020 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<link href="http://cdn.dota2.com/apps/dota2/css/static/reset.css?v=4924793" rel="stylesheet" type="text/css">
+	<link href="http://www.dota2.com/public/css/global.css?v=b4924793" rel="stylesheet" type="text/css" >
+<link href="http://www.dota2.com/public/css/global_english.css?v=BpCw4C6e29Gp" rel="stylesheet" type="text/css" >
+<link href="http://www.dota2.com/public/css/publicheader.css?v=dxJw6XR3DWJ3" rel="stylesheet" type="text/css" >
+	<link href="http://www.dota2.com/public/css/686_balanceofpower.css?v=b4924793" rel="stylesheet" type="text/css" >
+	<script type="text/javascript" src="http://cdn.dota2.com/apps/dota2/javascript/static/jquery-1.7.1.min.js?v=4924793"></script>
+<script type="text/javascript">$J = jQuery;</script><script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_global.js?v=OBsnl6VGf94w&amp;l=english" ></script>
+	<script type="text/javascript" src="http://cdn.dota2.com/apps/dota2/javascript/static/jquery.cycle.all.min.js?v=4924793"></script>
+	<script type="text/javascript" src="http://cdn.dota2.com/apps/dota2/javascript/static/jquery.easing.1.3.min.js?v=4924793"></script>
+	<script type="text/javascript" src="http://cdn.dota2.com/apps/dota2/javascript/static/jquery.imagesloaded.min.js?v=4924793"></script>
+	<script type="text/javascript" src="http://cdn.dota2.com/apps/dota2/javascript/static/spin.min.js?v=4924793"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+	<title>Dota 2 - Balance of Power</title>
+	<meta property="og:title" content="Dota 2 - The Balance of Power" />
+	<meta property="og:type" content="game" />
+	<meta property="og:url" content="http://www.dota2.com/balanceofpower/" />
+	<meta property="og:site_name" content="Dota2.com" />
+    <meta property="og:image" content="http://cdn.dota2.com/apps/dota2/images/686/update_image.jpg" />
+    <meta property="og:description" content="An update featuring the new hero Arc Warden, an Arcana for Zeus, the Desert Terrain pack, several UI improvements and the 6.86 gameplay update."/>
+    		
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-33822635-2']);
+		_gaq.push(['_setSampleRate', '1']);		_gaq.push(['_setDomainName', 'dota2.com']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script></head>
+<body>
+    
+
+
+	<div id="navBarBGRepeat" class="DotaFont">
+		<div id="navBarBG">
+			<div id="navBar">
+								
+												<div id="navLoginAndLanguage">
+
+																												<a href="https://steamcommunity.com/oauth/login?client_id=9B2C1229&response_type=token&state=balanceofpower">Login</a>
+										
+					<span id="HeaderAdminSeperator" class="DotaFont">|</span>
+
+					<div id="languageSelector" class="DotaFont">
+						<a href="javascript:void(0)">Language</a> <img style="margin-bottom: 2px;" src="http://cdn.dota2.com/apps/dota2/images/header/small_arrow.png" width="5px" height="3px" border="0" /><br />
+						<div style="display:none;" id="languageList">
+																						<a class="DotaFont languageItem" href="?l=brazilian">Português - Brasil (Portuguese - Brazil)</a>
+																						<a class="DotaFont languageItem" href="?l=bulgarian">Български (Bulgarian)</a>
+																						<a class="DotaFont languageItem" href="?l=czech">Čeština (Czech)</a>
+																						<a class="DotaFont languageItem" href="?l=danish">Dansk (Danish)</a>
+																						<a class="DotaFont languageItem" href="?l=dutch">Nederlands (Dutch)</a>
+																													<a class="DotaFont languageItem" href="?l=finnish">Suomi (Finnish)</a>
+																						<a class="DotaFont languageItem" href="?l=french">Français (French)</a>
+																						<a class="DotaFont languageItem" href="?l=german">Deutsch (German)</a>
+																						<a class="DotaFont languageItem" href="?l=greek">Ελληνικά (Greek)</a>
+																						<a class="DotaFont languageItem" href="?l=hungarian">Magyar (Hungarian)</a>
+																						<a class="DotaFont languageItem" href="?l=italian">Italiano (Italian)</a>
+																						<a class="DotaFont languageItem" href="?l=japanese">日本語 (Japanese)</a>
+																						<a class="DotaFont languageItem" href="?l=koreana">한국어 (Korean)</a>
+																						<a class="DotaFont languageItem" href="?l=norwegian">Norsk (Norwegian)</a>
+																						<a class="DotaFont languageItem" href="?l=polish">Polski (Polish)</a>
+																						<a class="DotaFont languageItem" href="?l=portuguese">Português (Portuguese)</a>
+																						<a class="DotaFont languageItem" href="?l=russian">Русский (Russian)</a>
+																						<a class="DotaFont languageItem" href="?l=romanian">Română (Romanian)</a>
+																						<a class="DotaFont languageItem" href="?l=schinese">简体中文 (Simplified Chinese)</a>
+																						<a class="DotaFont languageItem" href="?l=spanish">Español - España (Spanish - Spain)</a>
+																						<a class="DotaFont languageItem" href="?l=swedish">Svenska (Swedish)</a>
+																						<a class="DotaFont languageItem" href="?l=tchinese">繁體中文 (Traditional Chinese)</a>
+																						<a class="DotaFont languageItem" href="?l=thai">ไทย (Thai)</a>
+																						<a class="DotaFont languageItem" href="?l=turkish">Türkçe (Turkish)</a>
+																						<a class="DotaFont languageItem" href="?l=ukrainian">Українська (Ukrainian)</a>
+													</div>
+					</div>
+				</div>
+
+
+				<a href="http://store.steampowered.com/app/570/Dota_2/"><div id="PlayForFreeButton">
+					Play for Free
+				</div></a>
+
+									<span class="navItem navItemDotaLogo">
+						<a class="navBarItem DotaFont" href="http://www.dota2.com/play/">
+							<img border="0" class="DotaLogo" src="http://cdn.dota2.com/apps/dota2/images/nav/logo.png"/>
+						</a>
+					</span>
+
+											<span id="HeaderSeperator" class="DotaFont">|</span>
+													<span class="navItem">
+								<a class="navBarItem DotaFont" href="http://blog.dota2.com/">News</a>
+							</span>
+																	<span id="HeaderSeperator" class="DotaFont">|</span>
+													<span class="navItem">
+								<a class="navBarItem DotaFont" href="http://www.dota2.com/store/">Store</a>
+							</span>
+																	<span id="HeaderSeperator" class="DotaFont">|</span>
+													<span class="navItem">
+								<a class="navBarItem DotaFont" href="javascript:void(0)">Heropedia</a>
+								<div style="display:none;" class="menuSubItemList">
+																				<a class="DotaFont" href="http://www.dota2.com/heroes/">Heroes</a>
+																				<a class="DotaFont" href="http://www.dota2.com/items/">Item Explorer</a>
+																				<a class="DotaFont" href="http://www.dota2.com/workshop/builds">Builds</a>
+																				<a class="DotaFont" href="https://steamcommunity.com/app/570/guides" target="_blank">Steam Guides</a>
+																				<a class="DotaFont" href="http://www.dota2.com/quiz">The Shopkeeper's Quiz</a>
+														</div>
+								<img class="dn_arrow" src="http://cdn.dota2.com/apps/dota2/images/nav/arrow.png"/>
+							</span>
+																		</div>
+		</div>
+	</div>
+<script language="javascript">
+
+	function MM_preloadImages() { //v3.0
+	  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+
+	function PreloadHeaderImages()
+	{
+		//  Preload header rollover images
+		//MM_preloadImages(
+		//);
+	}
+
+			if ( document.addEventListener ) {
+		document.addEventListener( "DOMContentLoaded", PreloadHeaderImages, false );
+	} else if ( document.attachEvent ) {
+		document.attachEvent( 'onDomContentLoaded', PreloadHeaderImages );
+	}
+
+</script>
+
+
+
+	<script language="javascript">
+		function closeSubMenu( target ) {
+			$(target).find('.dn_arrow').attr( "src", "http://cdn.dota2.com/apps/dota2/images/nav/arrow.png" );
+			$(target).find('.menuSubItemList').hide();
+		}
+
+		function closeAllSubMenus() {
+			$('.navItem').each( function() {
+				closeSubMenu( $(this) );
+			});
+		}
+
+		function openSubMenu( target ) {
+			closeAllSubMenus();
+
+			$(target).find('.dn_arrow').attr( "src", "http://cdn.dota2.com/apps/dota2/images/nav/arrow_over.png" );
+
+			// Show the sub-menu
+			var subItemList = $(target).find('.menuSubItemList');
+			if ( subItemList.length ) {
+				var itemTop = $(target).position().top + $(target).outerHeight() - 16;
+				var itemLeft = $(target).position().left;
+				subItemList
+					.css({
+						"top": itemTop + 'px',
+						"left": itemLeft
+					})
+					.fadeIn( 'fast' );
+			}
+		}
+
+		$(document).ready( function () {
+			// Deal with the nav bars
+			$('.navItem').each( function() {
+				$(this).hover( function () {
+					$(this)
+						.find('a.navBarItem img.top')
+						.animate({
+							"opacity": 1
+						}, 100 );
+					if ( $(this).find('.menuSubItemList').length !== 0 ) {
+						openSubMenu( this );
+					}
+				},
+				function () {
+					$(this)
+					.find('a.navBarItem img.top')
+					.animate({
+						"opacity": 0
+					}, 100 );
+					if ( $(this).find('.menuSubItemList').length !== 0 ) {
+						closeSubMenu(this);
+					}
+				}
+				);
+			});
+
+			// Deal with header drop-downs
+			var strMenus = '#languageSelector';
+			
+			$(strMenus).each( function() {
+				$(this).hover( function () {
+					//show its submenu
+					$( this ).find( 'div' ).fadeIn( 'fast' );
+				},
+				function () {
+					//hide its submenu
+					$( this ).find( 'div' ).hide();
+				}
+				);
+			});
+		});
+
+	</script>
+
+
+	<div id="BG2" class="Outer">
+		<div class="Inner">
+			<video id="ArcWardenVideo" preload="" autoplay="" loop="" poster="http://cdn.dota2.com/apps/dota2/images/686/arcwardenvideo.jpg">
+				<source src="http://cdn.dota2.com/apps/dota2/videos/686/balanceofpowerheader.webm" type="video/webm">
+				<source src="http://cdn.dota2.com/apps/dota2/videos/686/balanceofpowerheader.mp4" type="video/mp4">
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/arcwardenvideo.jpg">
+			</video>
+
+			<div id="NavContainer">
+				<a href="#ZeusArcana">Zeus Arcana</a>
+				<a href="#comic">Comic</a>
+				<a href="#DesertTerrain">Desert Terrain</a>
+				<a href="#ClientUpdates">Client Updates</a>
+				<a href="#GameplayUpdate686">Gameplay Update 6.86</a>
+			</div>
+
+			<img id="ArcWardenVideoOverlay2" src="http://cdn.dota2.com/apps/dota2/images/686/bg_02_overlay.png" />
+
+		</div>
+	</div>
+
+	<div id="BG3" class="Outer">
+		<div class="Inner">
+			<img id="ArcWardenVideoOverlay3" src="http://cdn.dota2.com/apps/dota2/images/686/bg_03_overlay.png" />
+			<h1>The Fractured Guardian</h1>
+			<p>A splintered fragment of the same primordial power as the Ancients themselves, Zet the Arc Warden has pledged to see the clash between Radiant and Dire finally end, by reunification or annihilation.<br /><br />Assault lone enemies with fluxing energy, or distort space to generate a protective field around allies. Summon a Spark Wraith to patrol an area for enemies to infuse with harmful magic, then create a double of Zet, items and all, to overwhelm your foes.</p>
+
+		</div>
+	</div>
+
+	<div id="BG4" class="Outer">
+		<div class="Inner">
+			<h1>Flux</h1>
+			<p>Infuses a lone enemy unit with swirling, volatile energy, slowing its movement speed and dealing damage over time. The effect is muted if another enemy unit is near the target.</p>
+			<h1>Magnetic Field</h1>
+			<p>Generates a circular distortion field of magnetic energy that grants evasion and attack speed bonuses to allied heroes and buildings within.</p>
+			<h1>Spark Wraith</h1>
+			<p>Summons a Spark Wraith that slowly materializes and haunts a targeted area until an enemy comes within its range. Once a target has been found the wraith fuses with them, dealing magical damage.</p>
+			<h1>Tempest Double</h1>
+			<p>Briefly refocusing its fractured elements into a single form, the Arc Warden is able to create a perfect electrical duplication of itself. The duplicate can use all of Arc Warden's current items and spells. When the duplicate is created, all of its available items and normal abilities are off cooldown.</p>
+			<a href="http://www.dota2.com/hero/Arc_Warden/" target="_blank">Learn More</a>
+		</div>
+	</div>
+
+	<div id="BG5" class="Outer">
+		<div class="Inner">
+			<a name="ZeusArcana">&nbsp;</a>
+		</div>
+	</div>
+
+	<div id="BG6" class="Outer">
+		<div class="Inner">
+			<h1>Tempest Helm of the Thundergod</h1>
+			<h2>Arcana Item for Zeus</h2>
+			<p>Forged by the Hammers of Celestarr and imbued with the energies of the Ancients, this helm feels at home resting across the brow of the Lord of Heaven himself. The faithless shall tremble as true thunder rolls across the fields of battle!</p>
+			<h3>Arcana Includes:</h3>
+			<h4>When equipped, this item grants the following custom upgrades to Zeus:</h4>
+			<video id="ZeusVideo" preload="" autoplay="" loop="" poster="http://cdn.dota2.com/apps/dota2/videos/686/zeusvideo.jpg">
+				<source src="http://cdn.dota2.com/apps/dota2/videos/686/zeusvideo.webm" type="video/webm">
+				<source src="http://cdn.dota2.com/apps/dota2/videos/686/zeusvideo.mp4" type="video/mp4">
+				<img src="http://cdn.dota2.com/apps/dota2/videos/686/zeusvideo.jpg">
+			</video>
+			<div id="Zeus"></div>
+		</div>
+	</div>
+
+	<div id="BG7" class="Outer">
+		<div class="Inner">
+			<p>- New base model, texture, and all-new animations -</p>
+			<p>- New effect and sound for Thundergod’s Wrath -</p>
+			<p>- Special kill effect for enemies slain with Thundergod’s Wrath -</p>
+			<p>- Special Blink effect and sound when using a Blink Dagger -</p>
+			<p>- A custom portrait, hero icon, minimap icon, and ability icon -</p>
+			<p>- Altered Voice -</p>
+			<p>- A tempest-cloud chariot to carry His Majesty -</p>
+			<p>- Animated chat emoticon -</p>
+			<a href="http://www.dota2.com/store/itemdetails/20844" target="_blank">Buy Now</a>
+			<h1>If purchased by December 31st 2015, you will receive an 'EXALTED' quality on this item.</h1>
+            <h3>Read the Comic</h3>
+            <h2>Has Zeus graced your ears with the tale of the time he was entertaining a den of the most enchanting creatures when— No, no, not that time. That was how he <i>lost</i> half his powers.<br />This is the tale of how he got some of them back.</h2>
+			<img src="http://cdn.dota2.com/apps/dota2/images/686/zeus_emoticon.gif" />
+		</div>
+	</div>
+
+	<div id="BG8" class="Outer">
+		<div class="Inner" id="comic">
+            <p>Click image to advance</p>
+			<a href="http://cdn.dota2.com/apps/dota2/images/686/comic/en/sundered_moon.cbr?secretchange">Download as CBR</a>
+			<div id="Comic">
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/comic/en/001.png" width="1024" height="768" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/comic/en/002.png" width="1024" height="768" />
+			</div>
+		</div>
+	</div>
+
+	<div id="BG9" class="Outer">
+		<div class="Inner">
+			<a name="DesertTerrain">&nbsp;</a>
+			<h2>New in This Update</h2>
+			<h1 class="NewBlock">Desert Terrain</h1>
+			<p class="NewBlock">Granted to all owners of The International 2015 Compendium, the Desert Terrain stretch goal makes its Dota 2 debut. Along with the extensive visual changes, an overhaul of the underlying toolset used to create this terrain gives all custom game creators even more resources to bring their ideas into the field of play.</p>
+			<div id="DesertCycler">
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert1.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert2.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert3.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert4.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert5.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert6.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert7.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert8.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert9.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert10.jpg" width="800" height="400" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/desert11.jpg" width="800" height="400" />
+			</div>
+			<div id="PalmTree"></div>
+		</div>
+	</div>
+
+	<div id="BG10" class="Outer">
+		<div class="Inner">
+			<h1 class="NewBlock">Desert Music Pack</h1>
+			<p class="NewBlock">Composed by Matt Hawken Music, this desert-themed music pack makes its way from the Steam Community Workshop as the perfect accompaniment to the new Desert Terrain.</p>
+		</div>
+	</div>
+
+	<div id="BG11" class="Outer">
+		<div class="Inner">
+			<h1 class="NewBlock First">Ultra Shadow Quality</h1>
+			<p class="NewBlock First">Players can now select Ultra Shadow Quality in the Video settings menu. Rendering at twice the previously-supported resolution, the Ultra setting offers more vibrant hero and terrain shadows regardless of map, terrain type, or weather effect.</p>
+			<h2>Colosseum</h2>
+			<h1 class="NewBlock Second">New Desert Map</h1>
+			<p class="NewBlock Second">Available to all, the Desert Colosseum map brings a fresh level design—and a deadly boulder trap—to the popular custom game mode. Click the Arcade tab to try the new map or any of the other up-and-coming modes in the growing collection of custom games!</p>
+		</div>
+	</div>
+
+	<div id="BG12" class="Outer">
+		<div class="Inner">
+			<h1 class="NewBlock">Nested Treasure II</h1>
+			<p class="NewBlock">Purchasers of this tantalizing treasure box will find another treasure nestled inside! Filled from a new lineup of the past year's treasures, the Nested Treasure II also offers a chance to receive a Set Redemption Token which can be used to select any non-rare item contained within the other possible treasures.</p>
+			<a name="ClientUpdates"></a>
+			<h2>New In The Client</h2>
+		</div>
+	</div>
+
+	<div id="BG13" class="Outer">
+		<div class="Inner">
+			<h1 class="UIBlock">Hero Stats</h1>
+			<p class="UIBlock">Be it for studious improvement or post-stomp bragging rights, a detailed record of your exploits can come in handy. Check out your stats on each hero's respective gallery page, or see a comprehensive list in your profile.</p>
+
+			<div id="HeroStatsCycler">
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/herostats2.jpg" width="938" height="571" />
+				<img src="http://cdn.dota2.com/apps/dota2/images/686/herostats1.jpg" width="938" height="571" />
+			</div>
+		</div>
+	</div>
+
+	<div id="BG14" class="Outer">
+		<div class="Inner">
+			<h1 class="UIBlock">Easy Access Armory</h1>
+			<p class="UIBlock">Maintaining a modern hero's armory is no small task. Worse yet, sifting through dusty bracers and rusty broadswords in search of near-forgotten treasures is squire's work. With the new Armory feed, you can save time and sack the squire by accessing all of your recently-acquired items directly from any menu in the client.</p>
+		</div>
+	</div>
+
+	<div id="BG15" class="Outer">
+		<div class="Inner">
+			<h1 class="UIBlock">One Stop Shopping</h1>
+			<p class="UIBlock">Not all of the best shops are secret. Now accessible in the top menu of the Dota 2 client, visit the new Store tab to stock up on hero sets, global items, and the latest featured treasures.</p>
+		</div>
+	</div>
+
+	<div id="BG16" class="Outer">
+		<div class="Inner">
+			<h1 class="UIBlock">Private Chat Channels</h1>
+			<p class="UIBlock">Create chat channels with restricted memberships. Invite your friends, invite your enemies, invite anyone you'd like...or don't! You can create a channel that's just for you.</p>
+		</div>
+	</div>
+
+	<div id="BG17" class="Outer">
+		<div class="Inner">
+			<a name="GameplayUpdate686">&nbsp;</a>
+			<h2>New in 6.86</h2>
+			<h1 class="PurpleBlock">Map Change</h1>
+			<p class="PurpleBlock">By nature's will and battle's scars, the lands around the river have changed. Explore new paths—of opportunity and escape—on both the Radiant and Dire sides. Mastery of these paths may determine whether your return to the fountain is by means of teleportation or from beyond the veil of the dead.</p>
+		</div>
+	</div>
+
+	<div id="BG18" class="Outer">
+		<div class="Inner">
+			<h1 class="PurpleBlock First">New - Arcane Rune</h1>
+			<p class="PurpleBlock First">From battle's beginning to Ancient's end, heroes clash to briefly control the mystical energies that spawn near the river bends. Now, a new power flows into rune form. A prize to spellcasters and fighters alike, the Arcane Rune infuses its user's abilities with arcane energy, reducing all spell cooldowns and mana costs.</p>
+			<h1 class="PurpleBlock Second">New Items</h1>
+		</div>
+	</div>
+
+	<div id="BG19" class="Outer">
+		<div class="Inner">
+			<h1 class="NewItemName First">Faerie Fire</h1>
+			<p class="NewItemDesc First">For a meager offering, gain the blessing of the fae. The intense glow of Faerie Fire grants wielders increased damage against their foes, and can be consumed to restore health.</p>
+			<h1 class="NewItemName Second">Dragon Lance</h1>
+			<p class="NewItemDesc Second">Possess the strength and reach of a wyvern rider. The Dragon Lance bestows equal amounts strength, attack speed, and damage. The lance also extends the attack range of any ranged heroes who carry it to battle.</p>
+		</div>
+	</div>
+
+	<div id="BG20" class="Outer">
+		<div class="Inner">
+			<h1 class="NewItemName First">Aether Lens</h1>
+			<p class="NewItemDesc First">The Aether Lens boosts the mana and magic resistance of its bearer, while also granting improved health regeneration. With the lens as a focal point for arcane power, a caster gains increased spell range and damage output.</p>
+			<h1 class="NewItemName Second">Iron Talon</h1>
+			<p class="NewItemDesc Second">Offering armor and Quelling Blade bonuses, the Iron Talon joins the list of essential battlefield tools. While posing no threat to enemy heroes or the ancient beasts of the forest, the piercing blow of the talon is feared by all lesser creatures, and the occasional tree.</p>
+			<h1 class="OrangeBlock Third">Captains Mode Additions</h1>
+			<p class="OrangeBlock Third">No longer content to watch the clash from afar, three heroes enter the field of battle. Oracle, Terrorblade, and Earth Spirit are now available in Captains Mode.</p>
+		</div>
+	</div>
+
+	<div id="BG21" class="Outer">
+		<div class="Inner">
+			<h1 class="OrangeBlock">New Neutral Camp Locations</h1>
+			<p class="OrangeBlock">The creatures of the forest have expanded their territory. Two neutral creep camps have been added to the map—one near the Radiant's Secret Shop, one near the Dire's. With this added gold and experience in the balance, the battle for resources takes new shape.</p>
+		</div>
+	</div>
+
+	<div id="BG22" class="Outer">
+		<div class="Inner">
+			<h1 class="OrangeBlock">Hero Updates</h1>
+			<p class="OrangeBlock">As the tide of battle changes, a wise hero changes with it. Death Prophet, Faceless Void, Riki, Lone Druid, and Doom all have new abilities. Check the Patch Notes below for the full list of changes.</p>
+		</div>
+	</div>
+
+	<a name="GameplayUpdates"></a>
+    <div id="Container">
+    	<div class="Block" id="Header"><div class="Inner">
+    		<h1>Gameplay Update 6.86</h1>
+    	</div></div>
+    	<div class="Block" id="General"><div class="Inner"><div class="Body">
+    		
+					<h2>GENERAL</h2>
+					<ul> 
+						<li class="highlight">Added Arcane Rune
+							<div class="ChangeDetailsExtended">
+								<p>Causes all spell cooldowns to be reduced by 30% and mana costs to be reduced by 50%.</p>
+								<p>Lasts for 50 seconds.</p>
+							</div>
+						</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Creep bounty increases by 1 gold per normal upgrade cycle <span class="ChangeDetailsPopup">I.e. every 7 minutes 30 seconds</span></li>
+					</ul>
+					<br>
+					<ul>
+						<li>Siege damage against heroes increased from 75% to 85% <span class="ChangeDetailsPopup">Towers and Siege units do approximately 13% more damage to heroes.<br />E.g. Level 1 towers' damage against heroes effectively increased from 82.5 to 93.5.</span></li>
+					</ul>
+					<br>
+					<ul>
+						<li>Hero base HP increased from 150 to 180</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Creeps now arrive slightly closer to the top dire tower and bottom Radiant tower</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Random Draft hero pool increased from 24 to 50</li>
+						<li>Added Random Draft to Ranked Matchmaking</li>
+						<li>Random Draft now uses the same picking mechanics as Ranked All Pick</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Centaur Courser now has a stacking magic resistance aura (20% for units, 5% for heroes)<span class="ChangeDetailsPopup">This is the small neutral from the Centaur Camp.</span></li>
+						<li>Hellbear now has a stacking magic resistance aura (20% for units, 5% for heroes)<span class="ChangeDetailsPopup">This is the small neutral from the Hellbear Camp.</span></li>
+						<li>Dragonhide Aura's stackable armor increased from 2 to 3</li>
+						<li>Ancient Dragons armor reduced by 1</li>
+						<li>Ancient neutrals now behave like normal neutrals and split experience with all heroes in the AoE</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Added a new ability to Ancient Black Dragon, Fireball
+							<div class="ChangeDetailsExtended">
+								<p>Fireball<br />=======</p>
+								<p>Targets an area and hurls a fire blast towards it, igniting the 300 AoE area for 10 seconds. Deals 85 damage per second.</p>
+								<p>Cooldown: 10<br />Mana cost: 100<br />Cast Range: 1000.</p>
+							</div>
+					</ul>
+					<br>
+					<ul>
+						<li>Ancient Thunderhide's Frenzy is now unit targetable</li>
+						<li>Hill Troll Priest's Mana Aura increased from 2 to 3</li>
+						<li>Satyr Banisher's Purge cooldown reduced from 5 to 3 seconds</li>
+						<li>Satyr Tormenter's Unholy Aura HP regen increased from 4 to 6</li>
+						<li>Satyr Tormenter's Shockwave distance increased from 800 to 1200</li>
+						<li>Satyr Tormenter's Shockwave speed reduced from 1050 to 900</li>
+						<li>Satyr Tormenter's Shockwave damage increased 125 to 160</li>
+						<li>Dark Troll Summoner's and Hill Troll's attack range reduced from 500 to 400</li>
+						<li>Dark Troll Summoner's attack damage increased by 6</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Roshan's base armor increased by 1</li>
+						<li>Roshan's Base Attack Time increased from 1.0 to 2.0</li>
+						<li>Roshan now has +100 Attack Speed
+							<span class="ChangeDetailsPopup">
+								He still attacks at the same rate, but is affected less by negative attack speed.
+							</span>
+						</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Added a Patrol command</li>
+						<li>You are now able to bring up the targeting cursor when silenced, and instead get the error upon targeting rather than clicking the button </li>
+						<li>Single Target with AoE effects now have a new targeting UI
+							<span class="ChangeDetailsPopup">
+								Abilities like Frost Nova, Storm Bolt, etc.
+							</span>
+						</li>
+					</ul>
+					<br>
+					<ul>
+						<li>Ranked All Pick initial pre-picking time reduced from 15 to 5</li>
+						<li>Towers no longer have a very minor experience bounty (previously was 25 XP that split evenly in an area)</li>
+					</ul>
+					<br>
+					<ul>
+						<li> Simplified some minor damage and armor types
+							<div class="ChangeDetailsExtended">
+								<p>Removed the Light attack type and moved the following units to the Standard attack type (effectively 40->50% vs structures): Centaur Conqueror, Hellbear, Hellbear Smasher, Wildwind Ripper, Satyr Tormenter, Ancient Granite Golem, Ancient Black Dragon, Forged Spirits, Spiderlings, and Warlock's Golems.</p>
+<p>Removed the Weak armor type and moved the following unit to the Soft armor type (same as creeps): Beastmster's Hawk</p>
+<p>Combined the Basic and Strong Armor types (like various other neutrals use): Kobold Soldier, Vhoul Assassin, Ghost, Hill Troll Berserker, Hill Troll Priest, Harpy Scout, Harpy Stormcrafter, Beastmaster's Boar, Undying's Tombstone, Pugna's Netherward, Templar Assassin's Psionic Trap, Techies' Land Mine, Techies' Stasis Trap, and Techies' Remote Mine.</p>
+
+							</div>
+						</li>
+					 </ul>
+
+					<br />
+					<br />
+					<br />
+					<h2>Terrain</h2>
+					<ul>
+						<li>Added a new neutral hard camp for each team, near their respective Secret Shops</li>
+						<li>Added a small ramp from the Radiant Secret Shop to the ward spot right above it</li>
+						<li>Moved the Radiant hard camp  closer to the Dire offlane</li>
+						<li>Swapped Medium and Hard camp in Radiant Jungle</li>
+						<li>Added a new pathway from Radiant mid to Radiant jungle</li>
+						<li>Added a ramp connecting the Radiant jungle to the area near Roshan </li>
+						<li>Created a walkable pathway to the Radiant rune ward</li>
+						<li>Created a new juke spot behind the Dire Secret Shop</li>
+						<li>Expanded Terrain around the top Tier 2 Radiant tower</li>
+						<li>Moved the bottom rune up a little bit</li>
+						<li>Radiant middle tier 1 tower has been moved back</li>
+						<li>Adjusted Radiant small camp spawn box</li>
+						<li>Added a new ward spot near the Radiant ancients (does not reveal top rune)</li>
+						<li>Created a new pathway leading to the wardspot below the Radiant Secret Shop</li>
+						<li>Moved the Radiant ramp leading to the top rune further away from the rune (slightly closer to mid lane)</li>
+						<li>Moved the Dire ramp leading to the top rune closer up</li>
+						<li>Adjusted the terrain and the ramp going down from the Radiant Ancients slightly</li>
+						<li>Improved jukability in the terrain around the Dire side shop</li>
+						<li>Added a path through the trees at Radiant offlane sideshop moving south and added juke paths</li>
+						<li>Added a new ward spot to the right of the top tier 1 Radiant tower</li>
+						<li>Added a couple of trees to right of the ramp leading down from the Radiant ancients (covering some vision to the left of it)</li>
+						<li>Dire is now able to enter the jungle through the middle Radiant ramp and walk to the side without being in range to dispel their smoke</li>
+						<li>Added a new pathway above the top Dire side shop</li>
+						<li>Created a new pathway in the middle of the long column of trees at the bottom Radiant Tier 2 area</li>
+						<li>Added a walkable path to the ward spot near bottom rune</li>
+						<li>Reduced the size of the pull camp box on the Dire safelane hard camp</li>
+						<li>Added a pathable walkway from the cliff above the top rune to the Dire area to the right of it</li>
+						<li>Added a new pathway to the south of the bottom side shop</li>
+						<li>Added a couple of trees in the Dire base between the mid and top towers along the ledge</li>
+						<li>Adjusted juke paths near the Radiant ward spot near the hard camp</li>
+						<li>Added a new juke spot to the south of the bottom Radiant hard camp</li>
+						<li>Added a hiding spot in the Dire middle lane near the edge of the Secret Shop</li>
+						<li>Added some trees below the top Radiant T2 tower</li>
+						<li>Adjusted trees to the left of the Dire offlane (affecting visibility of heroes coming from the left)</li>
+						<li>Added a pathway above the Radiant Ancient (leading up to the new ward spot)</li>
+						<li>Adjusted Dire secret shop location slightly</li>
+						<li>Adjusted the terrain pathing a little bit around the loop where the Radiant bottom left ward spot is</li>
+						<li>Adjusted tree layout of the high ground to the right of the Radiant middle camp</li>
+						<li>Moved Radiant ramp to the bottom rune back a little bit</li>
+						<li>Added hiding spots in the clump of trees above the formerly Radiant hard camp (now the Radiant medium camp)</li>
+						<li>Nudged the Radiant small camp down very slightly</li>
+						<li>Moved the Radiant mid medium camp down slightly and adjusted nearby trees</li>
+						<li>Added a new hiding spot on the Dire bottom lane, in the area higher ground to the right of the Dire Ancients</li>
+						<li>Adjusted the position of the Radiant middle ramp slightly</li>
+						<li>Added a new juke spot to the terrain to the right of the Radiant small camp</li>
+						<li>Adjusted tree pathway and added a couple of hiding spots above the top Dire T2 tower</li>
+					</ul>
+					<br />
+					<br />
+					<br />
+		</div></div></div>
+    	<div class="Block" id="Heroes"><div class="Inner"><div class="Body">
+    		
+			 		<h2>HEROES</h2>
+					
+					[[alchemist]]
+				    <ul>
+						<li>Greevil's Greed Bounty Rune multiplier rescaled from 5x to 3/4/5/6x</li>
+						<li>Fixed Greevil's Greed granting full gold during Buyback gold penalty phase</li>
+				    </ul>
+					
+					[[bane]]
+				    <ul>
+						<li>Movement speed reduced from 315 to 310</li>
+				    </ul>
+					
+					[[batrider]]
+				    <ul>
+						<li>Base HP regeneration increased from 0.25 to 2.0</li>
+						<li>Flamebreak mana cost reduced from 140 to 110/120/130/140</li>
+				    </ul>
+
+					[[beastmaster]]
+				    <ul>
+						<li>Wild Axes no longer has unit targeting</li>
+						<li>Call of the Wild cooldown rescaled from 40 to 42/38/34/30</li>
+					</ul>
+
+					[[bloodseeker]]
+					<ul>
+						<li>Blood Rite cooldown rescaled from 29/26/23/20 to 30/25/20/15</li>
+					</ul>
+
+					[[bounty_hunter]]
+				    <ul>
+						<li>Jinada movement and attack speed reduction increased from 25% to 25/27/29/31%</li>
+				    </ul>
+
+					[[brewmaster]]
+				    <ul>
+						<li>Drunken Haze cooldown reduced from 8 to 8/7/6/5</li>
+						<li>Primal Split's Dispel Magic damage to summons increased from 200 to 500</li>
+						<li>Primal Split's Dispel Magic cooldown reduced from 6 to 4</li>
+						<li>Primal Split's Wind Walk cooldown reduced from 7 to 5</li>
+				    </ul>
+
+					[[bristleback]]
+				    <ul>
+						<li class="highlight">Added Scepter to Bristleback
+							<div class="ChangeDetailsExtended">
+								<p>Nasal Goo is no longer targeted, instead it applies Goo to all enemies around you in 600 AoE when casted</p>
+							</div>
+						</li>
+						<li>Nasal Goo mana cost reduced from 30 to 25</li>
+						<li>Quill Spray max damage increased from 400 to 450</li>
+				    </ul>
+
+					[[broodmother]]
+					<ul>
+						<li>Spawn Spiderlings damage reduced from 75/150/225/300 to 70/140/210/280</li>
+					</ul>
+
+					[[centaur]]
+				    <ul>
+						<li>Return damage increased from 30/42/54/66 to 30/45/60/75%</li>
+				    </ul>
+
+					[[chaos_knight]]
+				    <ul>
+						<li>Reality Rift bonus damage increased from 60/80/100/120 to 60/100/140/180</li>
+				    </ul>
+
+					[[chen]]
+				    <ul>
+						<li>Base strength increased from 20 to 23</li>
+						<li>Penitence mana cost reduced from 100 to 70</li>
+						<li>Penitence duration increased from 5/6/7/8 to 8</li>
+				    </ul>
+
+					[[clinkz]]
+					<ul>
+						<li>Agility growth increased from 3 to 3.3</li>
+					</ul>
+
+					[[rattletrap]]
+				    <ul>
+						<li>Strength growth increased from 2.7 to 2.9</li>
+						<li>Power Cogs now spawn in a circle rather than a rectangle</li>
+				    </ul>
+
+					[[crystal_maiden]]
+				    <ul>
+						<li>Crystal Nova cooldown reduced from 13 to 12</li>
+						<li>Arcane Aura level 4 mana regen increased from 2.5/5 (allies/self) to 3/6</li>
+				    </ul>
+
+					[[dark_seer]]
+				    <ul>
+						<li>Base intelligence reduced from 27 to 25</li>
+						<li>Ion Shell is now purgeable</li>
+				    </ul>
+
+					[[dazzle]]
+				    <ul>
+						<li>Poison Touch mana cost reduced from 100 to 70</li>
+						<li>Shallow Grave cast point increased from 0.3 to 0.35</li>
+						<li>Shallow Grave mana cost increased from 140/130/120/110 to 150</li>
+						<li>Weave no longer provides 800 flying vision. Now provides ground vision for the AoE of the ability for 3 seconds</li>
+				    </ul>
+
+					[[death_prophet]]
+				    <ul>
+						<li class="highlight">Temporarily removed from Captain's Mode
+							<div class="ChangeDetailsPopup">
+								Due to hero redesigns, the following heroes have been removed from Captain's Mode for a short period:
+								Death Prophet, Doom, Faceless Void, Lone Druid, Riki and Winter Wyvern.
+								<p>Most of these will return to Captain's Mode in a subsequent 6.86b/c patch.</p>
+							</div>
+						</li>
+						<li class="highlight">Replaced Witchcraft with a new ability, Spirit Siphon
+							<div class="ChangeDetailsExtended">
+								<p>Spirit Siphon<br />=======</p>
+								<p>Creates a spirit link between you and the target, draining 20 + 1/1.8/2.6/3.4% Max HP per second and slowing movement speed by 6/10/14/18%. Lasts 4 seconds. </p>
+								<p>Cast Range: 500</p>
+								<p>Buffer Distance: 300</p>
+								<p>Has 1/2/3/4 charges, 45 second replenish<span class="ChangeDetailsPopup">A unit cannot be affected by multiple instances at the same time. Cannot target Roshan.</span><br />Mana cost: 70/65/60/55</p>
+							</div>
+						</li>
+						<li>Base movement speed increased from 280 to 310</li>
+						<li>Crypt Swarm cooldown reduced from 8 to 8/7/6/5</li>
+						<li>Silence cooldown reduced from 15 to 15/14/13/12</li>
+						<li>Exorcism spirit count increased from 8/14/21 to 8/16/24</li>
+						<li>Exorcism spawn rate decreased from 1 ghost per 0.1 seconds to 0.3 seconds </li>
+				    </ul>
+
+					
+					[[doom_bringer]]
+				    <ul>
+						<li class="highlight">Temporarily removed from Captain's Mode
+							<div class="ChangeDetailsPopup">
+								Due to hero redesigns, the following heroes have been removed from Captain's Mode for a short period:
+								Death Prophet, Doom, Faceless Void, Lone Druid, Riki and Winter Wyvern.
+								<p>Most of these will return to Captain's Mode in a subsequent 6.86b/c patch.</p>
+							</div>
+						</li>
+						<li class="highlight">Replaced Level Death with a new ability, Infernal Blade
+							<div class="ChangeDetailsExtended">
+								<p>Infernal Blade<br />=======</p>
+								<p>Passive/autocast attack ability. Ministuns for 0.3 seconds and applies a 4 second burn that deals 40 + 1.25/2.5/3.75/5% Max HP as magic damage.</p>
+								<p>Cooldown: 16/12/8/4<br />Mana cost: 40</p>
+							</div>
+						</li>
+						<li>Base Attack Time increased from 1.7 to 2.0</li>
+						<li>Scorched Earth damage/heal reduced from 12/23/34/45 to 10/20/30/40</li>
+						<li>Scorched Earth movement speed from 16% to 14%</li>
+						<li>Doom cooldown increased from 100 to 125</li>
+				    </ul>
+
+					[[dragon_knight]]
+				    <ul>
+						<li>Dragon Blood HP regen increased from 2/3/4/5 to 3/6/9/12</li>
+						<li>Elder Dragon Form Frost AoE increased from 250 to 300 <div class="ChangeDetailsPopup">Same AoE as the splash damage</div></li>
+				    </ul>
+
+					[[drow_ranger]]
+				    <ul>
+						<li class="highlight">Added Scepter to Drow Ranger
+							<div class="ChangeDetailsExtended">
+								<p>Marksmanship now causes her attacks to splinter on the target and split into two arrows affecting two random units in a 375 radius. The splintered arrows deal 50% damage each. Primary target still takes full damage.</p>
+								<p>The split arrows act as normal attacks, carrying all attack modifiers.</p>
+							</div>
+						</li>
+				    </ul>
+
+					[[earth_spirit]]
+				    <ul>
+						<li class="highlight">Enabled Earth Spirit in Captain's Mode</li>
+						<li>Intelligence growth reduced from 2.4 to 2.1</li>
+						<li>Boulder Smash stun AoE reduced from 200 to 160</li>
+						<li>Geomagnetic Grip can now only pull allied heroes when using Scepter</li>
+				    </ul>
+
+					[[elder_titan]]
+				    <ul>
+						<li>Earth Splitter damage rescaled from 35% to 30/40/50%</li>
+						<li>Earth Splitter mana cost rescaled from 175 to 125/175/225</li>
+						<li>Earth Splitter's physical damage component is no longer reduced by Damage Block</li>
+				    </ul>
+
+					[[ember_spirit]]
+				    <ul>
+						<li>Fire Remnants no longer give vision</li>
+				    </ul>
+
+					[[enchantress]]
+				    <ul>
+						<li>Enchant cooldown reduced from 30/25/20/15 to 30/24/18/12</li>
+				    </ul>
+
+					[[enigma]]
+				    <ul>
+						<li>Eidolon movement speed increased from 250/250/260/260 to 260/280/300/320</li>
+						<li>Malefice damage increased from 25/40/55/70 to 30/50/70/90</li>
+						<li>Black Hole cooldown reduced from 200/190/180 to 200/180/160</li>
+				    </ul>
+
+					[[faceless_void]]
+				    <ul>
+						<li class="highlight">Temporarily removed from Captain's Mode
+							<div class="ChangeDetailsPopup">
+								Due to hero redesigns, the following heroes have been removed from Captain's Mode for a short period:
+								Death Prophet, Doom, Faceless Void, Lone Druid, Riki and Winter Wyvern.
+								<p>Most of these will return to Captain's Mode in a subsequent 6.86b/c patch.</p>
+							</div>
+						</li>
+						<li class="highlight">Replaced Backtrack with a new ability, Time Dilation
+							<div class="ChangeDetailsExtended" >
+								<p>Time Dilation<br />=======</p>
+								<p>Applies a debuff to all nearby enemies (650 AoE) for 6/7/8/9 seconds. Causes time to be frozen on all enemy abilities, causing their cooldowns to make no progress while they have this debuff. Slows movement and attack speed by 4/6/8/10% for each locked ability.</p>
+								<p>Cooldown: 34/28/22/16<br />Mana cost: 50</p>
+							</div>
+						</li>
+						<li>Timewalk no longer slows units</li>
+						<li>Timewalk now undoes any damage taken in the last 2 seconds</li>
+						<li>Timewalk cooldown rescaled from 19/17/15/13 to 24/18/12/6</li>
+						<li>Timewalk mana cost reduced from 90 to 40</li>
+						<li>Timewalk range reduced from 700/900/1100/1300 to 550</li>
+						<li>Timewalk cast point reduced from 0.35 to 0.2</li>
+				    </ul>
+
+					[[gyrocopter]]
+				    <ul>						
+						<li>Call Down's first missile damage reduced from 250/300/350 to 220/285/350</li>
+				    </ul>
+
+					[[huskar]]
+				    <ul>
+						<li>Berserker's Blood bonuses are provided linearly from full until 10% HP (rather than stepwise at 7% increments)</li>
+						<li>Berserker's Blood maximum magic resistance reduced from 42/56/70/84% to 20/30/40/50%</li>
+				    </ul>
+
+					[[invoker]]
+				    <ul>
+						<li>Invoker now starts with Invoke Level 1 at the beginning of the game</li>
+						<li>Invoke now has the standard 6/11/16 leveling</li>
+						<li>Level 25 invoker (since he is now missing an ability level) has an attribute bonus ability that grants 6 all stats</li>
+				    </ul>
+
+					[[jakiro]]
+				    <ul>
+						<li>Base damage increased by 7</li>
+				    </ul>
+
+					[[keeper_of_the_light]]
+				    <ul>
+						<li>Chakra Magic cooldown reduction increased from 2/3/4/5 to 3/4/5/6</li>
+						<li>Chakra Magic buff duration increased from 12 to 15 seconds</li>
+						<li>Chakra Magic now restores and increases mana capacity by 75/150/225/300</li>
+				    </ul>
+
+					[[kunkka]]
+				    <ul>
+						<li class="highlight">Added Scepter to Kunkka
+							<div class="ChangeDetailsExtended" >
+								<p>Ghost Ship now drags enemies within a 200 AoE of it towards the crash site. It now starts from where you are, rather than behind you, lands in the same position it normally would have.</p>
+								<p>Enemies are still able to perform actions while being pulled by the Ghost Ship. <span class="ChangeDetailsPopup">Works similiar to Drow Ranger's Gust knockback</span></p>
+							</div>
+						</li>
+						<li>Torrent now gives your team vision over target area immediately upon cast, rather than just when triggering</li>
+						<li>Tidebringer is now an autocast ability, will only trigger if turned on or cast directly on the target</li>
+						<li>Tidebringer damage bonus increased from 20/35/50/65 to 25/40/55/70</li>
+						<li>Tidebringer AoE from rescaled 500/500/500/600 to 450/500/550/600</li>
+						<li>Ghost Ship mana cost reduced from 150/200/250 to 125/175/225</li>
+				    </ul>
+
+					[[legion_commander]]
+				    <ul>
+						<li>Moment of Courage cooldown reduced from 2.7/2.1/1.5/0.9 to 2.6/2.0/1.4/0.8</li>
+						<li>Legion Commander's Scepter now makes you and your target immune to all damage unless the source is between the Duel participants.</li>
+						<li>Legion Commander's Scepter duration is now 4.75/5.5/6.25</li>
+				    </ul>
+
+					[[life_stealer]]
+				    <ul>
+						<li>Rage attack speed bonus increased from 30/45/60/80 to 50/60/70/80</li>
+						<li>Feast damage and lifesteal increased from 4/5/6/7% to 4.5/5.5/6.5/7.5%</li>
+						<li>Infest cooldown reduced from 100 to 100/75/50 </li>
+				    </ul>
+
+					[[lion]]
+				    <ul>
+						<li>Earth Spike mana cost reduced from 100/120/145/170 to 100/120/140/160</li>
+						<li>Earth Spike duration increased from 1.02/1.52/2.02/2.52 to 1.1/1.6/2.1/2.6</li>
+						<li>Mana Drain reduced cooldown from 20/15/10/5 to 16/12/8/4</li>
+				    </ul>
+
+					[[lone_druid]]
+				    <ul>
+						<li class="highlight">Temporarily removed from Captain's Mode
+							<div class="ChangeDetailsPopup">
+								Due to hero redesigns, the following heroes have been removed from Captain's Mode for a short period:
+								Death Prophet, Doom, Faceless Void, Lone Druid, Riki and Winter Wyvern.
+								<p>Most of these will return to Captain's Mode in a subsequent 6.86b/c patch.</p>
+							</div>
+						</li>
+						<li class="highlight">Replaced Synergy with a new ability for Lone Druid, Savage Roar
+							<div class="ChangeDetailsExtended">
+								<p>Savage Roar<br />=======</p>
+								<p>Causes enemies in a 325 AoE around you or your bear to run away with 20% movement speed bonus for 1.2/1.6/2/2.4 seconds towards their fountain.</p>
+								<p>Cooldown: 28/24/20/16<br />Mana cost: 50</p>
+								<p>Note: An entangled hero will not be able to move still. Spirit Bear also has this ability, but the cooldown is shared with your hero.</p>
+							</div>
+						</li>
+						<li>Spirit Bear attack damage increased from 33 to 35/45/55/65</li>
+						<li>Spirit Bear movement speed increased from 320/320/330/340 to 320/330/340/350</li>
+						<li>Rabid duration increased from 10 to 18/22/26/30</li>
+						<li>Rabid movement speed increased from 5/10/15/20% to 10/15/20/25%</li>
+						<li>True Form Health Bonus increased from 250/400/600 to 300/600/900</li>
+				    </ul>
+
+					[[luna]]
+				    <ul>
+						<li>Turn rate increased from 0.4 to 0.6</li>
+						<li>Eclipse Scepter beam interval reduced from 0.6 to 0.3</li>
+				    </ul>
+
+					[[lycan]]
+				    <ul>
+						<li>Lycan Wolves and Shapeshift no longer grant critical strike</li>
+						<li>Lycan Wolves now gain Cripple at level 2, granting a 20% chance to cripple the target, causing it to take 8 damage per second and lose 40 Attack Speed for 4 seconds.</li>
+						<li>Shapeshift now grants all units under your control a 40% chance for 1.4/1.6/1.8x critical strike</li>
+				    </ul>
+
+					[[magnataur]]
+				    <ul>
+						<li class="highlight">Added Scepter to Magnus
+							<div class="ChangeDetailsExtended">
+								<p>Changes Empower to be an allied hero aura. Affects ranged heroes for half cleave values and causes them to deal splash damage around the target in a 200 AoE. </p>
+								<p>Can still be cast on units, but does not stack.</p>
+							</div>
+						</li>
+						<li>Skewer distance increased from 750/900/1050/1200 to 900/1000/1100/1200</li>
+						<li>Skewer slow reduced from 40% to 25/30/35/40%</li>
+						<li>Skewer slow duration increased from 2.5 to 2.5/2.75/3/3.25 seconds</li>
+				    </ul>
+
+					[[medusa]]
+				    <ul>
+						<li>Mystic Snake no longer increases manasteal per jump</li>
+						<li>Mystic Snake manasteal is now 11/14/17/20% of total mana</li>
+				    </ul>
+
+					[[meepo]]
+				    <ul>
+						<li>Double Damage no longer affects all Meepo units</li>
+				    </ul>
+
+					[[mirana]]
+				    <ul>
+						<li>Attack range increased from 600 to 630</li>
+						<li>Starstorm radius increased from 625 to 650</li>
+						<li>Sacred Arrow now instantly kills the first unit it hits if it is a non-ancient creep</li>
+				    </ul>
+
+					[[morphling]]
+				    <ul>
+						<li>Adaptive Strike base damage increased from 50/60/70/80 to 100</li>
+						<li>Adaptive Strike mana cost reduced from 100 to 100/90/80/70</li>
+						<li>Morph rate increased from 2/4/6/10 per second to 2/4/8/16</li>
+						<li>Morph now shifts in intervals of 1 rather than 2 <div class="ChangeDetailsPopup">This change doesn't affect rate of change, just smoothness</div></li>
+						<li>Hybrid cooldown reduced from 140 to 120</li>
+				    </ul>
+
+					[[naga_siren]]
+				    <ul>
+						<li>Base Intelligence increased from 18 + 1.95 to 21 + 2.0</li>
+				    </ul>
+
+					
+					[[furion]]
+				    <ul>
+						<li>Base intelligence increased by 4</li>
+						<li>Treant damage increased from 28 to 32
+							<span class="ChangeDetailsPopup">
+								This means Greater Treant damage is increased from 84 to 96
+							</span>
+						</li>
+					</ul>
+
+					[[necrolyte]]
+					<ul>
+						<li>Base armor increased by 1</li>
+					</ul>
+
+					[[night_stalker]]
+				    <ul>
+						<li>Void slow at night reduced from 4 to 2.5/3/3.5/4 seconds</li>
+				    </ul>
+
+					[[nyx_assassin]]
+				    <ul>
+						<li>Nyx Impale duration increased from 1.27/1.77/2.27/2.77 to 1.6/2.0/2.4/2.8</li>
+						<li>Spiked Carapace cooldown reduced from 23/20/17/14 to 22/18/14/10</li>
+				    </ul>
+
+					[[ogre_magi]]
+				    <ul>						
+						<li>Base health regen increased from 2.5 to 3.5</li>
+					</ul>
+
+					[[oracle]]
+				    <ul>
+						<li class="highlight">Enabled Oracle in Captain's Mode</li>
+						<li>Fate's Edict cooldown rescaled from 12 to 16/13/10/7</li>
+						<li>Fate's Edict duration reduced from 3/4/5/6 to 3/3.5/4/4.5 </li>
+						<li>Fate's Edict cast range rescaled from 700 to 500/600/700/800</li>
+						<li>Fortune's End mana cost reduced from 130 to 110</li>
+						<li>Fortune's End can now target allies <div class="ChangeDetailsPopup">Does not root or hurt the ally, but purges and applies the effect in the area</div></li>
+						<li class="highlight">False Promise no longer continuously dispels after the initial cast <div class="ChangeDetailsPopup">It previously continuously removed all debuffs including stuns</div></li>
+						<li>False Promise duration increased from 6/7/8 to 7/8/9</li>
+						<li>False Promise cooldown rescaled from 80/60/40 to 90/60/30</li>
+						<li>False Promise mana cost reduced from 200 to 100</li>
+				    </ul>
+
+					[[obsidian_destroyer]]
+				    <ul>
+						<li class="highlight">Reworked how Astral Imprisonment works
+							<div class="ChangeDetailsExtended">
+								<p>Astral Imprisonment now deals damage to enemies in an area around the target when it ends. The target itself will also take damage, if it is an enemy. Deals 75/150/225/300 magic damage. Affects a 400 area. <span class="ChangeDetailsPopup">You are only hurt once by this AoE with Scepter.</span></p>
+								<p>No longer steals intelligence.</p>
+								<p>Can now be targeted on creeps.</p>
+							</div>
+						</li>
+						<li>Astral Imprisonment cooldown rescaled from 18/16/14/12 to 20/17/14/11</li>
+						<li>Astral Imprisonment cast range rescaled from 500 to 450/500/550/600</li>
+						<li>Astral Imprisonment duration increased from 1/2/3/4 to 4</li>
+						<li>Essence Aura AoE reduced from 1000 to the standard 900 aura radius</li>
+						<li>Arcane Orb now steals 0/1/2/3 intelligence per hit for 40 seconds (heroes only)</li>
+						<li>Outworld Devourer intelligence growth reduced from 3.3 to 2.7</li>
+					</ul>
+
+					[[phantom_assassin]]
+				    <ul>						
+						<li>Base Intelligence increased from 13 + 1 to 15 + 1.4</li>
+					</ul>
+
+					[[phoenix]]
+				    <ul>
+						<li>Sun Ray turn rate increased from 20 to 25</li>
+						<li>Supernova damage per second increased from 60/80/100 to 60/90/120</li>
+					</ul>
+
+					[[puck]]
+				    <ul>						
+						<li>Illusory Orb mana cost reduced from 150 to 80/100/120/140</li>
+						<li>Illusory Orb cooldown increased from 11 to 14/13/12/11</li>
+						<li>Waning Rift cooldown reduced from 16 to 16/15/14/13</li>
+						<li>Waning Rift no longer only silences heroes</li>
+					</ul>
+
+					[[pudge]]
+				   <ul>
+					   <li class="highlight">Reworked Scepter on Pudge
+						   <div class="ChangeDetailsExtended">
+							   <p>Reduces cooldown of Meat Hook to 4 seconds and increases damage from 360 to 475.</p>
+							   <p>Note: No longer grants previous Scepter bonuses.</p>
+						   </div>
+					   </li>
+					   <li>Dismember damage from 75/125/175 to 60/90/120 +30/40/50% of strength</li>
+					   <li>Dismember now heals you for the damage it does</li>
+					</ul>
+
+					[[pugna]]
+				    <ul>
+						<li>Decrepify no longer slows allies</li>
+					</ul>
+
+					[[queenofpain]]
+				    <ul>
+						<li>Scream of Pain damage reduced from 85/165/225/300 to 75/150/225/300</li>
+						<li>Sonic Wave travel speed reduced from 1100 to 900</li>
+					</ul>
+
+					[[riki]]
+				    <ul>
+						<li class="highlight">Temporarily removed from Captain's Mode
+							<div class="ChangeDetailsPopup">
+								Due to hero redesigns, the following heroes have been removed from Captain's Mode for a short period:
+								Death Prophet, Doom, Faceless Void, Lone Druid, Riki and Winter Wyvern.
+								<p>Most of these will return to Captain's Mode in a subsequent 6.86b/c patch.</p>
+							</div>
+						</li>
+						<li class="highlight">Reworked Permanent Invisibility to include Backstab
+							<div class="ChangeDetailsExtended">
+								<p>Permanent Invisibility<br />============</p>
+								<p>Riki grants 0.4/0.6/0.8/1.0 damage when attacking from behind.</p>
+								<p>Invisibility Fade Time: 6/5/4/3 seconds</p>
+								<p>Note: No longer grants 6/8/10/12 HP regeneration</p>
+							</div>
+						</li>
+						<li class="highlight">Blink Strike back to basic ability without charges
+							<div class="ChangeDetailsExtended">
+								<p>Damage: 20/40/60/80<br />Cooldown: 16/12/8/4<br />Mana cost: 50</p>
+							</div>
+						</li>
+						<li class="highlight">Added a new ultimate for Riki, Tricks of the Trade
+							<div class="ChangeDetailsExtended">
+								<p>Tricks of the Trade<br />============</p>
+								<p>Riki phases out of the world for up to 3/4/5 seconds, attacking every enemy from behind in a 450 area around him. He attacks once when phasing out and then once per second while being phased out.
+									<span class="ChangeDetailsPopup">Can be cancelled any time.</span>
+								</p>
+								<p>Cooldown: 90/80/70<br />Mana cost: 75<br />Cast Point: 0.4</p>
+							</div>
+						</li>
+						<li>Strength growth reduced from 2.0 to 1.6</li>
+						<li>Agility growth reduced from 2.9 to 2.2</li>
+						<li>Base armor reduced by 1</li>
+						<li>Smoke Screen no longer slows turn rates</li>
+				    </ul>
+
+					[[rubick]]
+				    <ul>
+						<li>Fade Bolt attack damage reduction increased from 14/20/26/32 to 20/25/30/35</li>
+					</ul>
+
+					[[sand_king]]
+				    <ul>
+						<li class="highlight">Reworked Scepter on Sand King
+							<div class="ChangeDetailsExtended">
+								<p>Doubles Burrowstrike cast range and applies Caustic Finale poison to heroes</p>
+								<p>Note: No longer grants previous Scepter bonuses.</p>
+							</div>
+						</li>
+						<li>Base strength increased from 18 to 21</li>
+						<li>Caustic Finale slow increased from 25% to 30%</li>
+					</ul>
+
+					[[shadow_demon]]
+					<ul>
+						<li>Disruption illusions duration from 5/6/7/8 to 6/8/10/12 seconds</li>
+					</ul>
+
+					[[nevermore]]
+				    <ul>
+						<li class="highlight">Added Scepter to Shadow Fiend
+							<div class="ChangeDetailsExtended">
+								<p>Requiem of Souls waves now return back to Shadow Fiend dealing 40% damage on the way back.</p>
+								<p>All of the damage the Requiem does to heroes on its way back heals you.</p>
+							</div>
+						</li>
+						<li>Base armor reduced by 1</li>
+						<li>Shadow Raze mana cost increased from 75 to 90</li>
+					</ul>
+
+					[[shadow_shaman]]
+				    <ul>
+						<li>Shackles total damage increased from 120/180/240/300 to 120/200/280/360</li>
+						<li>Mass Serpent Wards require 2 hits to destroy <div class="ChangeDetailsPopup">Previously had 135/150/150 hp</div></li>
+					</ul>
+
+					[[silencer]]
+				   <ul>
+						<li class="highlight">Replaced Curse of the Silent with a new ability, Arcane Curse
+							<div class="ChangeDetailsExtended">
+								<p>Arcane Curse<br />=======</p>
+								<p>Targets an area, causes enemies to take damage over time. Anytime they cast a spell, the duration of the debuff is increased. If an enemy affected by this debuff is silenced, the debuff will pause (no damage and no time elapses).</p>
+								<p>Duration: 7 seconds<br />Stacking Duration: 4 seconds (anytime a spell is cast, this is added to the duration)<br />DPS: 14/21/28/35</p>
+								<p>Cooldown: 18/16/14/12<br />Mana cost: 75/95/115/135<br />Radius: 425</p>
+								<p>Affects Creeps.</p>
+								<p>Note: Spell cast means the same stuff as CotS rules were, stuff that procs magic stick and isn't an item.</p>
+							</div>
+						</li>
+					   <li>Glaives of Wisdom is no longer a Unique Attack Modifier</li>
+					</ul>
+
+					[[skywrath_mage]]
+				    <ul>
+						<li>Concussive Shot mana cost reduced from 110 to 95</li>
+					</ul>
+
+					[[slardar]]
+				    <ul>
+						<li>Amplify Damage now only reveals the target rather than the area around it</li>
+					</ul>
+
+					[[storm_spirit]]
+				   <ul>
+						<li>Electric Vortex mana cost reduced from 100/110/120/130 to 85</li>
+					</ul>
+
+					[[sven]]
+				   <ul>
+					   	<li>Base damage increased by 4</li>
+					   	<li>God's Strength Scepter aura bonus damage increased from 50/75/100% to 75/100/125%</li>
+					</ul>
+
+					[[templar_assassin]]
+				    <ul>
+						<li>Refraction is now always visible</li>
+					</ul>
+
+					[[terrorblade]]
+				    <ul>
+						<li class="highlight">Enabled Terrorblade in Captain's Mode</li>
+					</ul>
+
+					[[tidehunter]]
+				    <ul>
+						<li class="highlight">Added Scepter to Tidehunter
+							<div class="ChangeDetailsExtended">
+								<p>Causes Gush to become a ground targeted wave ability that travels for 1800 range.</p>
+								<p>AoE: 240<br />Projectile speed: 1500<br />Cooldown: 7</p>
+							</div>
+						</li>
+						<li>Anchor Smash cast time reduced from 0.5 to 0.4</li>
+						<li>Ravage stun duration rescaled from 2.02/2.32/2.77 to 2.0/2.4/2.8</li>
+					</ul>
+
+					[[shredder]]
+				    <ul>
+						<li>Whirling Death debuff duration increased from 7 to 11</li>
+						<li>Whirling Death mana cost decreased from 70/80/90/100 to 70</li>
+						<li>Reactive Armor duration rescaled from 16 to 14/16/18/20</li>
+					</ul>
+
+					[[tinker]]
+				    <ul>
+						<li>Laser cast time improved from 0.53 to 0.4</li>
+						<li>Laser cast range increased from 550 to 650</li>
+					</ul>
+
+					[[tiny]]
+				    <ul>
+						<li>Craggy Exterior now triggers on attacks landing, rather than on start</li>
+					</ul>
+
+					[[treant]]
+				    <ul>
+						<li>Leech Seed mana cost reduced from 100/110/120/130 to 80/95/110/125</li>
+						<li>Overgrowth AoE increased from 675 to 800</li>
+						<li>Scepter Overgrowth damage and vision AoE increased from 700 to 800</li>
+					</ul>
+
+					[[troll_warlord]]
+				    <ul>
+						<li>Fervor reduced from 20/25/30/35 to 15/20/25/30</li>
+						<li>Fervor max stacks increased from 4 to 6</li>
+						<li>Ranged Whirling Axes cooldown reduced from 20/19/18/17 to 20/18/16/14</li>
+					</ul>
+
+					[[tusk]]
+				    <ul>
+						<li>Movement speed reduced from 305 to 300</li>
+						<li>Ice Shards damage reduced from 70/140/210/280 to 60/120/180/240</li>
+						<li>Snowball can no longer pull units out of Blackhole or Chronosphere</li>
+						<li>Snowball gather radius reduced from 400 to 350</li>
+					</ul>
+
+					[[undying]]
+				    <ul>
+						<li>Tombstone Zombie damage reduced from 35 to 33</li>
+						<li>Tombstone bounty increased from 75/100/125/150 to 125/150/175/200</li>
+						<li>Tombstone no longer grants 44 XP</li>
+					</ul>
+
+					[[ursa]]
+				    <ul>
+						<li class="highlight">Scepter added to Ursa
+							<div class="ChangeDetailsExtended">
+								<p>Allows you to cast your ultimate while disabled and reduces cooldown from 50/40/30 to 30/24/18 seconds.</p>
+							</div>
+						</li>
+						<li>Enrage is no longer purgeable</li>
+					</ul>
+
+					[[vengefulspirit]]
+				    <ul>
+						<li class="highlight">Added Scepter bonus to Vengeful Spirit
+							<div class="ChangeDetailsExtended">
+								<p>Causes you to spawn a Vengeance Illusion when you die. The Vengeance Illusion deals 50% damage, takes 150% damage, and is able to use all of your abilities (but not items). The Vengeance Illusion lasts until she revives.</p>
+								<p>Note: Still grants previous Scepter bonuses to Netherswap.</p>
+							</div>
+						</li>
+					</ul>
+
+					[[venomancer]]
+					<ul>
+						<li>Venomous Gale cooldown reduced from 22 to 21/20/19/18</li>
+					</ul>
+
+					[[visage]]
+					<ul>
+						<li>Stone Form AoE increased from 340 to 350</li>
+					</ul>
+
+					[[warlock]]
+					<ul>
+						<li>Base strength increased by 4</li>
+						<li>Shadow Word duration increased from 11 to 12 seconds</li>
+					</ul>
+
+					[[weaver]]
+					<ul>
+						<li>Base damage increased by 3</li>
+						<li>The Swarm Beetles' Base Attack Time improved from 1.4/1.25/1.1/0.95 to 1.25/1.1/0.95/0.8</li>
+					</ul>
+
+					[[windrunner]]
+					<ul>
+						<li>Shackleshot is now disjointable</li>
+						<li>Shackleshot speed increased from 1515 to 1650</li>
+						<li>Shackleshot angle reduced from 26 degrees to 23 degrees</li>
+						<li>Powershot speed no longer decreases by a small amount as it goes through units</li>
+					</ul>
+
+					[[winter_wyvern]]
+					<ul>
+						<li class="highlight">Temporarily removed from Captain's Mode
+							<div class="ChangeDetailsPopup">
+								Due to hero redesigns, the following heroes have been removed from Captain's Mode for a short period:
+								Death Prophet, Doom, Faceless Void, Lone Druid, Riki and Winter Wyvern.
+								<p>Most of these will return to Captain's Mode in a subsequent 6.86b/c patch.</p>
+							</div>
+						</li>
+						<li>Cold Embrace cooldown increased from 17/16/15/14 to 24/21/18/15</li>
+						<li>Arctic Burn slow reduced from 25/30/35/40% to 19/26/33/40%</li>
+						<li class="highlight">Winter's Curse primary and secondary units are now immune to all damage from their enemies</li>
+						<li>Winter's Curse secondary units now have 50 attack speed bonus</li>
+						<li>Winter's Curse AoE increased increased from 400 to 500</li>
+						<li>Winter's Curse cooldown increased from 110/100/90 to 120/110/100</li>
+						<li>Winter's Curse duration increased from 2.5/3/3.5 to 3.25/4/4.75</li>
+						<li>Fixed Winter's Curse lingering if the primary target died</li>
+					</ul>
+
+					[[witch_doctor]]
+					<ul>
+						<li>Maledict mana cost reduced from 120 to 105/110/115/120</li>
+						<li>Maledict cast range increased from 525 to 575</li>
+					</ul>
+
+					[[skeleton_king]]
+					<ul>
+						<li>Vampiric Aura can now be toggled to make the lifesteal for heroes only</li>
+					</ul>
+
+    	</div></div></div>
+    	<div class="Block" id="Items"><div class="Inner"><div class="Body">
+    		
+			 		<h2>ITEMS</h2>
+					<b>NEW ITEMS</b>
+					<br />
+					<div class="ChangeNoteImage">
+						<img src="http://cdn.dota2.com/apps/dota2/images/items/faerie_fire_lg.png" width="48" height="36">
+					</div>
+					<br style='clear: left;'/>
+					<strong>Faerie Fire</strong>
+					<br />
+					<ul>
+						<li class="highlight">New consumable item, Faerie Fire<br />
+							<div class="ChangeDetailsExtended">
+								<p>Costs: 75 gold</p>
+								<p>Provides: 
+								<br />
+								+ 2 Damage
+								</p>
+								<p>Use: Consume the Faerie Fire to restore 75 HP. Cooldown: 5 seconds.</p>
+							</div>
+						</li>
+					</ul>
+
+					<div class="ChangeNoteImage">
+						<img src="http://cdn.dota2.com/apps/dota2/images/items/dragon_lance_lg.png" width="48" height="36">
+					</div>
+					<br style='clear: left;'/>
+					<b>Dragon Lance</b>
+					<br />
+					<ul>
+						<li class="highlight">New item formed from Ogre Club and Quarterstaff.<br />
+							<div class="ChangeDetailsExtended">
+								<p>Requires:<br />
+								Ogre Club (1000)<br />
+								Quarterstaff (875)<br />
+								Total: 1875</p>
+								<p>Provides:<br />
+								+ 10 Strength<br />
+								+ 10 Attack Speed<br />
+								+ 10 Damage<br />
+								+ 130 Attack Range (ranged heroes only, does not stack)</p>
+								<p>Can be disassembled.</p>
+							</div>
+						</li>
+					</ul>
+
+					<div class="ChangeNoteImage">
+						<img src="http://cdn.dota2.com/apps/dota2/images/items/aether_lens_lg.png" width="48" height="36">
+					</div>
+					<br style='clear: left;'/>
+					<b>Aether Lens</b>
+					<br />
+					<ul>
+						<li class="highlight">New item formed from Energy Booster, Ring of Health and Cloak.<br />
+							<div class="ChangeDetailsExtended">
+								<p>Requires:<br />
+								Energy Booster (900)<br />
+								Ring of Health (850)<br />
+								Cloak (550)<br />
+								Total: 2300</p>
+								<p>Provides:<br />
+								+ 250 Mana<br />
+								+ 8 HP Regeneration<br />
+								+ 15 Magic Resistance<br />
+								+ 200 Cast Range<br />
+								+ 8% Spell Damage</p>
+								<br />Cast range improvement affects targeted spells and distance related spells, such as Venomous Gale. Does not affect AoE abilities like Poison Nova.
+							</div>
+						</li>
+					</ul>
+
+					<div class="ChangeNoteImage">
+						<img src="http://cdn.dota2.com/apps/dota2/images/items/iron_talon_lg.png" width="48" height="36">
+					</div>
+					<br style='clear: left;'/>
+					<b>Iron Talon</b>
+					<br />
+					<ul>
+						<li class="highlight">New item formed from Quelling Blade, Ring of Protection and a Recipe.<br />
+							<div class="ChangeDetailsExtended">
+								<p>Requires:<br />
+								Quelling Blade (200)<br />
+								Ring of Protection (175)<br />
+								Recipe (125)<br />
+								Total: 500</p>
+								<p>Provides:<br />
+								+ 2 Armor<br />
+								Bonuses of Quelling Blade</p>
+								<p>Active: Lets you target non-player enemy units to remove 40% of their current HP. Cooldown: 14 seconds. </p>
+								<p>Note: Cannot target ancients. Has normal 4 second cooldown when used on Trees.</p>
+							</div>
+						</li>
+					</ul>
+
+					<br />
+					<br />
+					<br />
+					<br />
+					
+					<b>ITEM CHANGES</b>
+					<br />
+					[[abyssal_blade]]
+					<ul>
+						<li>Bash damage increased from 60 to 120</li>
+						<li>Damage bonus decreased from 85 to 70
+							<div class="ChangeDetailsPopup">The following items are related in their changes with bonus damage and proc damage being modified: Abyssal Blade, Javelin, Monkey King Bar, and Skull Basher
+							</div>
+						</li>
+					</ul>
+					
+					[[courier]]
+					<ul>
+						<li>Courier purchase cooldown increased from 7 seconds to 2 minutes</li>
+						<li>Animal Courier cost decreased from 120 to 100</li>
+					</ul>
+
+					[[arcane_boots]]
+					<ul>
+						<li>Movement speed reduced by 5 and total cost reduced by 50 (see Boots of Speed changes)
+							<span class="ChangeDetailsPopup">This applies to the following:<br />Boots of Speed, Arcane Boots, Phase Boots, Power Treads and Tranquil Boots</span>
+						</li>
+					</ul>
+
+					[[assault]]
+					<ul>
+						<li>Attack speed aura bonus now affects buildings<span class="ChangeDetailsPopup">Armor portion already affects buildings.</span></li>
+					</ul>
+
+					[[blade_mail]]
+					<ul>
+						<li>Cooldown reduced from 15 to 13</li>
+					</ul>
+
+					[[boots]]
+					<ul>
+						<li>Cost reduced from 450 to 400</li>
+						<li>Movement speed reduced by 5
+							<span class="ChangeDetailsPopup">This applies to the following:<br />Boots of Speed, Arcane Boots, Phase Boots, Power Treads and Tranquil Boots</span>
+						</li>
+					</ul>
+
+					[[bottle]]
+					<ul>
+						<li>Cost reduced from 700 to 660</li>
+						<li>Health regen per charge reduced from 110 to 90</li>
+						<li>Mana regen per charge reduced from 70 to 60</li>
+						<li>A charge now heals over 2.5 seconds instead of 3 seconds (total amount is still 90/60)</li>
+						<li>Added Bottle to Side Shop, starts with only 1 charge.<span class="ChangeDetailsPopup">As usual, if you use the item, you cannot sell it back for full price.</span></li>
+					</ul>
+
+					[[butterfly]]
+					<ul>
+						<li>Flutter movement speed increased from 25 to 35%</li>
+						<li>Flutter duration reduced from 6 to 4 seconds</li>
+					</ul>
+
+					[[clarity]]
+					<ul>
+						<li>Mana regeneration increased from 170 over 45 seconds to 190 over 50 seconds
+							<span class="ChangeDetailsPopup">Same mana regen per second</span>
+						</li>
+					</ul>
+
+					[[cloak]]
+					<ul>
+						<li>Magic resistance reduced from 20% to 15%</li>
+					</ul>
+
+					[[crimson_guard]]
+					<ul>
+						<li>Crimson Guard chance from 75% to block 40/20 to 100% to block 32/16</li>
+						<li>Cooldown reduced from 70 to 60</li>
+					</ul>
+
+					[[greater_crit]]
+					<ul>
+						<li>Critical Strike from 25% chance for 2.4x to 30% chance for 2.2x <div class="ChangeDetailsPopup">Average damage increase from 35% to 36%</div></li>
+					</ul>
+
+					[[diffusal_blade]]
+					<ul>
+						<li>Agility bonus increased from 20/35 to 25/35</li>
+						<li>Intelligence bonus increased from 6/10 to 10/15</li>
+					</ul>
+
+					[[ancient_janggo]]
+					<ul>
+						<li>Endurance bonus movement speed increased from 10% to 13%
+							<span class="ChangeDetailsPopup">Endurance is the active ability</span>
+						</li>
+					</ul>
+
+					[[ethereal_blade]]
+					<ul>
+						<li>Mana cost reduced from 150 to 100</li>
+					</ul>
+
+					[[flying_courier]]
+					<ul>
+						<li>Cost reduced from 220 to 200</li>
+					</ul>
+
+					[[glimmer_cape]]
+					<ul>
+						<li>Base magic resistance reduced from 20% to 15%</li>
+					</ul>
+
+					[[heart]]
+					<ul>
+						<li>HP regeneration increased from 4% to 4.75%</li>
+					</ul>
+
+					[[helm_of_the_dominator]]
+					<ul>
+						<li>Dominate now sets the dominated creeps' base movement speed to 350
+							<span class="ChangeDetailsPopup">Dominate is the active ability</span>
+						</li>
+					</ul>
+
+					[[hood_of_defiance]]
+					<ul>
+						<li class="highlight">Hood of Defiance now has an active ability.	
+							<div class="ChangeDetailsExtended">
+								<p>Creates a spell shield on your hero that absorbs up to 325 magical damage.</p>
+								<p>Duration: 12 seconds<br />Cooldown: 60 seconds<br />Mana cost: 75</p>
+							</div>
+						</li>
+					</ul>
+
+					[[branches]]
+					<ul>
+						<li>Can now be used by targeting the ground, planting a happy little tree that lasts 20 seconds. 200 Cast Range. </li>
+					</ul>
+
+					[[javelin]]
+					<ul>
+						<li>Pierce improved from 20% to deal 40 damage to 25% to deal 85 bonus damage
+							<span class="ChangeDetailsPopup">Pierce is the passive ability</span>
+						</li>
+						<li>Damage bonus reduced from 21 to 10
+							<div class="ChangeDetailsPopup">The following items are related in their changes with bonus damage and proc damage being modified: Abyssal Blade, Javelin, Monkey King Bar, and Skull Basher
+							</div>
+						</li>
+					</ul>
+
+					[[sphere]]
+					<ul>
+						<li>Cooldown reduced from 16 to 13</li>
+						<li>Damage bonus increased from 10 to 15</li>
+					</ul>
+
+					[[mantle]]
+					<ul>
+						<li>Removed from Side Shop</li>
+					</ul>
+
+					[[monkey_king_bar]]
+					<ul>
+						<li>Mini bash proc damage increased from 100 to 160</li>
+						<li>Damage bonus reduced from 88 to 66
+							<div class="ChangeDetailsPopup">The following items are related in their changes with bonus damage and proc damage being modified: Abyssal Blade, Javelin, Monkey King Bar, and Skull Basher
+							</div>
+						</li>
+					</ul>
+
+					[[necronomicon]]
+					<ul>
+						<li>Recipe cost reduced from 1250 to 1200</li>
+						<li>Necronomicon Archer attack range increased from 350/450/550 to 450/500/550</li>
+					</ul>
+
+					[[ward_dispenser]]
+					<ul>
+						<li>Observer and Sentry Wards now have an AoE indicator before placing<span class="ChangeDetailsPopup">They also use a new UI for placement</span></li>
+					</ul>
+
+					[[ward_observer]]
+					<ul>
+						<li>Experience bounty increased from 50 to 100</li>
+					</ul>
+
+					[[octarine_core]]
+					<ul>
+						<li>Now affects the replenish time of charged abilities</li>
+					</ul>
+
+					[[orb_of_venom]]
+					<ul>
+						<li>Orb of Venom is no longer a Unique Attack Modifier</li>
+					</ul>
+
+					[[phase_boots]]
+					<ul>
+						<li>Phase active no longer cancels when casting</li>
+						<li>Movement speed reduced by 5 and total cost reduced by 50 (see Boots of Speed changes)
+							<span class="ChangeDetailsPopup">This applies to the following:<br />Boots of Speed, Arcane Boots, Phase Boots, Power Treads and Tranquil Boots</span>
+						</li>
+					</ul>
+
+					[[power_treads]]
+					<ul>
+						<li>Movement speed reduced by 5 and total cost reduced by 50 (see Boots of Speed changes)
+							<span class="ChangeDetailsPopup">This applies to the following:<br />Boots of Speed, Arcane Boots, Phase Boots, Power Treads and Tranquil Boots</span>
+						</li>
+					</ul>
+
+					[[quelling_blade]]
+					<ul>
+						<li>Cost reduced from 225 to 200</li>
+					</ul>
+
+					[[ring_of_protection]]
+					<ul>
+						<li>Cost reduced from 200 to 175</li>
+						<li>Armor bonus reduced from 3 to 2</li>
+					</ul>
+
+					[[rod_of_atos]]
+					<ul>
+						<li>Cripple cooldown increased from 10 to 12</li>
+						<li>Cripple now grants units that attack the target 40% accuracy<div class="ChangeDetailsPopup">This means that targets attacking that unit will not miss 40% of the time.</div></li>
+					</ul>
+
+					[[sange]]
+					<ul>
+						<li>Maim no longer pierces Spell Immunity</li>
+					</ul>
+
+					[[sange_and_yasha]]
+					<ul>
+						<li>Greater Maim no longer pierces Spell Immunity</li>
+					</ul>
+
+					[[satanic]]
+					<ul>
+						<li>Duration increased from 4 to 4.5</li>
+					</ul>
+
+					[[sheepstick]]
+					<ul>
+						<li>Hex cooldown reduced from 30 to 25</li>
+					</ul>
+
+					[[silver_edge]]
+					<ul>
+						<li>Silver Edge debuff is no longer dispellable</li>
+					</ul>
+
+					[[basher]]
+					<ul>
+						<li>Strength bonus increased from 8 to 10</li>
+						<li>Bash damage increased from 60 to 120</li>
+						<li>Damage reduced from 25 to 10
+							<div class="ChangeDetailsPopup">The following items are related in their changes with bonus damage and proc damage being modified: Abyssal Blade, Javelin, Monkey King Bar, and Skull Basher
+							</div>
+						</li>
+					</ul>
+
+					[[smoke_of_deceit]]
+					<ul>
+						<li>Cost reduced from 100 to 50</li>
+					</ul>
+
+					[[tango]]
+					<ul>
+						<li>Boosted Tangoes now last for double the duration instead of providing double the healing rate</li>
+						<li>Using Tango on Iron Branch trees provides double healing duration</li>
+					</ul>
+
+					[[tranquil_boots]]
+					<ul>
+						<li>Tranquil Boots armor reduced from 4 to 3</li>
+						<li>Movement speed reduced by 5
+							<span class="ChangeDetailsPopup">This applies to the following:<br />Boots of Speed, Arcane Boots, Phase Boots, Power Treads and Tranquil Boots</span>
+						</li>
+					</ul>
+
+					
+					[[vanguard]]
+					<ul>
+						<li>Vanguard chance from 75% to block 40/20 to 100% to block 32/16</li>
+					</ul>
+
+					[[veil_of_discord]]
+					<ul>
+						<li>Now requires 2x Robe of the Magi instead of a 900 recipe (Int bonus increased by 12)</li>
+					</ul>
+
+					[[vitality_booster]]
+					<ul>
+						<li>Added to Side Shop</li>
+					</ul>
+
+					[[ultimate_orb]]
+					<ul>
+						<li>Removed from Side Shop</li>
+					</ul>
+
+					[[yasha]]
+					<ul>
+						<li>Movement speed bonus reduced from 10% to 8%
+							<span class="ChangeDetailsPopup">Sange and Yasha and Manta are unchanged</span>
+						</li>
+					</ul>
+
+    	</div></div></div>
+    </div>
+
+	<a name="686PatchNotes"></a>
+	<div id="lower_addbox">
+		<div id="addbox">
+			<div id="addbox_top"></div>
+			<div id="addbox_bottom"></div>
+			<div id="addbox_content" class="text1">
+				<h2>ADDITIONAL CHANGES</h2>
+	                <div id="Body_ChangeNotes">
+	                    
+<b>Updated the Dashboard Top Bar:</b>
+<ul>
+<li>The Armory has been moved from within the Heroes tab to its own top level button (next to the quit button)
+<li>The Armory now has a New Items preview panel when hovered
+<li>Custom Games can now be found inside of the Arcade tab
+<li>There is now a top level Store tab, which includes featured items, top sellers, new releases, spotlighted treasures, and items on sale
+<li>The Treasury has been moved to within the Store tab
+</ul>
+
+<b>Updated ARDM game mode:</b>
+<ul>
+<li>Fixed various ARDM-related client crashes
+<li>When selling items in ARDM, you now get 85% of the purchase price
+<li>You can now see your next hero (and skill up) as soon as your current hero dies
+</ul>
+
+<b>Fixes in the Steam client released on Thursday, Dec 10:</b>
+<ul>
+<li>Fixed a problem that could cause frame rate hitches, especially for players subscribed to a large number of hero guides
+<li>Added a mechanism to Steam for Dota to tell it when you are in a match, so Steam should not patch the game.  Steam never downloads updates to the game, or custom game items that have already been completely installed, once you launch Dota.  This change ensures that Steam will also not update Dota if you exit the game or crash and try to relaunch Dota.
+</ul>
+
+<ul>
+<li>Added an option for specifying whether you always want to hear the default respawn music, even when using a music pack
+<li>Private lobbies can now set how pause is available in game: Unlimited where any player can pause, Limited where players have limited amount of pauses, and Disabled for no pauses allowed
+<li>Added a new targeting UI for unit-AOE abilities
+<li>Chatting "lmao" now causes your hero to laugh
+<li>Fountain Healing now shows a buff icon during its duration
+<li>Fixed a bug where picking "None" for a stat didn't stick on Profile Cards
+<li>Added a "Clear" button that lets you clear a slot on your Profile Card
+</ul>
+
+<ul>
+<li>Added an item details page to show features of items available for purchase including item description, brand and associated league information, items that are contained within bundles, demo mode, and ability icons and other modifiers associated with the items
+<li>Improved the appearance of Prismatic Gems in the armory
+<li>Spectator Gems now show the logo of the team they are associated with in the armory
+<li>In the Customize screen, It is now possible to select all items in the same set as a particular item by right-clicking on the item icon and choosing 'Select Set Items'
+<li>Fixed particles not appearing in the Hero Loadout and in-game Hero Picker screens for some of Terrorblade's Demon Form items 
+<li>Fixed a bug where the arcana of Legion Commander, Shadow Fiend, and Techies looked incorrect in the in-game hero picker screen
+<li>Fixed a bug where Terrorblades' Demon Form items would not correctly pick up the arcana color gem color in the Customize screen
+</ul>
+
+<ul>
+<li>Improved pathfinding (please report any bugs you find)
+<li>Fixed a bug where the friends menu sometimes clipped elements off of the end
+<li>Fixed dota_spectator_auto_spectate_games.
+<li>Added dota_redeem_item_code, a console command to redeem legacy dota codes (particularly autographs from TI3/TI4)
+<li>Fixed Dire tower destruction portraits
+<li>Fixed a bug where sounds from the dashboard would sometimes play while in game.
+<li>Fixed "Bring to foreground when match found" option not working correctly in Exclusive Fullscreen video modes
+<li>Fixed bug where some screenshake effects weren't happening (eg. Enigma immortal blackhole)
+<li>Fixed a bug where heroes would sometimes be missing facial movement in portraits
+<li>Fixed a bug random polygons shooting out of hero faces
+<li>Fixed status effects and illusion effects on Bonkers the Mad
+<li>Fixing a bug with screenspace particle effects not previewing correctly in particle editor
+<li>Fixing a crash when equpping certain wearable items (ones that didn't have a model associated with them)
+<li>Fixed cases in which the loadout screen showed the wrong Marketplace price and the Market button would take you to an incorrect Marketplace page
+<li>Fixed a bug where ghost units would sometimes appear in the center of the minimap
+<li>Fixed a bug where some text in item tooltips would be cut off
+<li>Lowered memory usage, particularly on the treasure details page
+</ul>
+
+<b>Workshop Importer</b>
+<ul>
+<li>Added ability to preview work that doesn't yet meet submission constraints (still cannot be submitted until the errors are resolved)
+<li>General improvements to the workshop importer UI
+<li>Added more information about submission constraints (triangle count, etc.) to workshop importer UI
+<li>Added support for effects meshes (sword glow geometry, etc.)
+<li>Added support for importing cursor packs, and music packs
+</ul>
+
+<b>SFM</b>
+<ul>
+<li>Character picker can now preview and create alternate model sets (Tiny, Night Stalker) and replacement models (Dragon Knight, Lone Druid, Lycan, Terrorblade)
+<li>Character picker now previews and creates item-specifc particle snapshots, instead of always using the snapshot from the base item (fixes Anti-Mage's weapon glows, for example)
+<li>Fixed models with cloth collision volumes having bones incorrectly marked as procedural (Axe, Zeus)
+</ul>
+	                </div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	$( function () {
+		var URL = ( location.protocol == 'https:' ) ? 'https://www.dota2.com/' : 'http://www.dota2.com/';
+		URL = URL + 'jsfeed/heropediadata?feeds=herodata,itemdata&l=english';
+		$.ajax(
+			{
+				type:'GET',
+				cache:true,
+				url: URL,
+				dataType:'jsonp',
+				success: function( data )
+				{
+					g_HeroData = data['herodata'];
+					g_ItemData = data['itemdata'];
+					formatHeroAndItemNotes();
+				}
+			}
+		);
+	} );
+
+	var g_HeroData = false;
+	var g_ItemData = false;
+	function formatHeroAndItemNotes()
+	{
+		$.each( ['items','heroes'], function( i, type ) {
+			var containers = ['#Heroes','#Items','#cl_damagetypes'];
+			for ( i = 0; i < containers.length; i++ )
+			{
+				container = containers[i];
+				var strContents = $(container).html();
+				if ( strContents )
+				{
+					var foundTags = strContents.match( /\[\[\w+\]\]/g );
+					if ( foundTags )
+					{
+						for ( x = 0; x < foundTags.length; x++ )
+						{
+							tag = foundTags[x];
+							tag = tag.substring( 2, tag.length-2 );
+							bUnfound = false;
+							if ( g_ItemData[tag] )
+							{
+								path = 'items/'+tag+'_lg.png';
+								name = g_ItemData[tag].dname;
+								hw = 'width="48" height="36"';
+							}
+							else if ( g_HeroData[tag] )
+							{
+								path = 'heroes/'+tag+'_sb.png';
+								name = g_HeroData[tag].dname;
+								hw = '';
+							}
+							else
+							{
+								bUnfound = true;
+							}
+							if ( !bUnfound )
+							{
+								var strHTML = '<div class="ChangeNoteImage"><img src="http://cdn.dota2.com/apps/dota2/images/'+path+'" '+hw+' /></div><br style="clear: left;"/>';
+								strHTML += '<b>' + name + '</b>';
+								strContents = strContents.replace( foundTags[x], strHTML );
+							}
+						}
+						$(container).html( strContents );
+					}
+				}
+			}
+		});
+
+	    var eCount = 0;
+	    $( '.ChangeDetailsExtended' ).each( function() {
+	        var $extended = $( this );
+	        $extended.attr( 'id', 'extended'+eCount );
+	        $extended.before( '<input type="button" class="ChangeDetailsEToggle" id="eToggle'+eCount+'" onclick="$(\'#extended'+eCount+'\').show();$(this).hide();" value="+ Show details" />' );
+	        $extended.html( '<input type="button" class="ChangeDetailsEToggle" onclick="$(\'#extended'+eCount+'\').hide();$(\'#eToggle'+eCount+'\').show();" value="- Hide details" />' + $extended.html() );
+	        eCount++;
+		} );
+
+	    $( '.ChangeDetailsPopup' ).each( function() {
+	        var $popup = $( this );
+	        var $link = $("<a>").text("[?]").attr("href", "#").addClass("ChangeDetailsTrigger").insertBefore($popup);
+
+	        $link.hover( function() {
+	            $popup.css('display', 'block');
+	        }, function() {
+	            $popup.css('display', 'none');
+	        });
+	        $link.click( function() {
+	            // Suppress the click event
+	            return false;
+	        });
+	    } );
+	}
+
+	$( function () {
+		$( '#HeroStatsCycler' ).on(
+			'mouseenter',
+			function( e )
+			{
+				$( '#CarouselCycler' ).cycle( 'pause' );
+			}
+		).on(
+			'mouseleave',
+			function( e )
+			{
+				$( '#CarouselCycler' ).cycle( 'resume' );
+			}
+		);
+
+		$('#HeroStatsCycler').cycle(
+			{
+				fx:			'scrollHorz',
+				speed:		450,
+				timeout:	6000,
+				easing:		'easeInOutCubic'
+			}
+		);
+
+		$('#Comic').cycle(
+			{
+				//fx:			'scrollHorz',
+				speed:		450,
+				timeout:	0,
+				easing:		'easeInOutCubic',
+				next: 		'#Comic',
+				pause: 		1,
+				before: 	ComicOnBefore
+			}
+		);
+
+		$('#DesertCycler').cycle(
+			{
+				fx:			'scrollHorz',
+				speed:		450,
+				timeout:	3000,
+				easing:		'easeInOutCubic'
+			}
+		);
+
+		function PadWithZeroes( str )
+		{
+			while ( str.length < 3 ) str = '0' + str;
+			return str;
+		}
+
+	    var k_nComicSlideCount = 21; 
+
+	    function ComicOnBefore(curr, next, opts) { 
+	        if ( !opts.addSlide )
+	            return; 
+	 
+	        var currentImageNum = parseInt(next.src.match(/\/(\d+)\.png/)[1]); 
+	        console.log( currentImageNum );
+	        if ( currentImageNum == k_nComicSlideCount ) { 
+	            opts.addSlide = null; 
+	            return; 
+	        } 
+	        
+			opts.addSlide( '<img src="http://cdn.dota2.com/apps/dota2/images/686/comic/en/' + PadWithZeroes( currentImageNum + 1 + "" ) + '.png?secretchange" width="1024" height="768" />' );
+	    }; 
+
+	}) ;
+
+</script>
+</html>
